@@ -4,32 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HW1: Feedback</title>
+    <title>HW1: Gallery</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/gallery.css" />
   </head>
   <body>
     <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
     <main>
       <section class="container">
-        <h1>Feedback</h1>
+        <h1>Gallery</h1>
         <load src="./partials/back-link.html" />
       </section>
       <section class="container">
-        <form id="feedback-form" class="feedback-form" autocomplete="off">
-          <label>
-            Email
-            <input type="email" name="email" autofocus />
-          </label>
-          <label>
-            Message
-            <textarea name="message" rows="8"></textarea>
-          </label>
-          <button type="submit">Submit</button>
-        </form>
+       <ul id="gallery" class="gallery"></ul>
       </section>
     </main>
 
-    <script src="js/feedback.js" type="module"> </script>
+    <script src="js/1-gallery.js" type="module"></script>
   </body>
 </html>
