@@ -4,14 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HW1</title>
+    <title>HW1: Gallery</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/gallery.css" />
   </head>
   <body>
     <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
     <main>
+      <section class="container">
+        <h1>Gallery</h1>
+        <load src="./partials/back-link.html" />
+      </section>
+      <section class="container">
+       <ul id="gallery" class="gallery"></ul>
+      </section>
     </main>
 
+    <script src="js/gallery.js" type="module"></script>
   </body>
 </html>
